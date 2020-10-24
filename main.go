@@ -66,7 +66,7 @@ func main() {
 		packLines = append(packLines, packArrange(APPLE, CAKE, i))
 	}
 
-	p , e := getBestPack(packLines)
+	p, e := getBestPack(packLines)
 	if e != nil {
 		fmt.Println(e)
 	}
